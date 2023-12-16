@@ -91,3 +91,25 @@
     word-wrap: break-word;
 }
 
+.overlay-container{
+    position: relative;
+   
+    
+}
+.overlay-container  .overlay-img img{
+   height: 300px;
+   width: 100%;
+   filter: blur(2px);
+}
+/* .overlay-container  .overlay-img img:hover{
+    filter: blur(3px);  
+} */
+.overlay-container .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50, -50);
+    font-size: 46px;
+    font-weight: 600;
+    color: #fff;
+}
