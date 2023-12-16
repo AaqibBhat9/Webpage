@@ -121,4 +121,6 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(114, 118, 247);
+    padding-top: 15px;
 }
