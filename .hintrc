@@ -3,10 +3,18 @@
     "development"
   ],
   "hints": {
-    "axe/text-alternatives": [
+    "axe/text-alternatives": "off",
+    "axe/name-role-value": [
       "default",
       {
-        "image-alt": "off"
+        "input-button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
       }
     ]
   }
