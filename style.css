@@ -41,6 +41,14 @@
     font-weight: 400;
     text-decoration: underline;
 }
+
+.fa-facebook{
+  color: rgb(0, 0, 0);
+}
+.fa-facebook:hover{
+  color: blue;
+  cursor: pointer;
+}
 /* end header */
 
 /* hero section str */
