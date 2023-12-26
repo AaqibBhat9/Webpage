@@ -52,6 +52,7 @@
     display: flex;
     justify-content: space-evenly;   
 }
+ 
 .hero-container::-webkit-scrollbar {
     width: 20px;
   }
@@ -256,4 +257,39 @@ body{
   margin-left: 55px ;
   border-radius: 40px;
   border: none;
+}
+.zindex-container {
+    position: relative;
+    height: 30vh;
+}
+
+.zindex-container img {
+    height: 30vh;
+    width: 100vw;
+}
+
+.zindex-container:hover {
+    z-index: 1;
+}
+
+.zindex-h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2; /* Increase z-index to ensure it's above other elements */
+    transform: translate(-50%, -50%);
+}
+
+.zindex-inner {
+    position: absolute;
+    height: 30vh;
+    width: 100vw;
+    top: 0;
+    background-color: rgb(26, 185, 185);
+    z-index: 1;
+}
+
+.zindex-inner:hover {
+    z-index: -1;
+    /* Adjust other styles if needed */
 }
