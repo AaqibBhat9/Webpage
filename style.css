@@ -301,3 +301,10 @@ body{
     z-index: -1;
     /* Adjust other styles if needed */
 }
+/* .card-holders .card-txt-container::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; /* or add it to the track */
+
+
+/* 
