@@ -44,6 +44,15 @@
 
 .fa-facebook{
   color: rgb(0, 0, 0);
+  margin: 10px;
+}
+.fa-user{
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+.fa-github-square{
+  color: rgb(0, 0, 0);
+  margin: 10px;
 }
 .fa-facebook:hover{
   color: blue;
@@ -215,8 +224,7 @@
   }
 body{
     /* background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100'); */
-    /* background-position: center; */
-    
+    /* background-position: center; */    
 }
 
   .form-container{
@@ -233,7 +241,7 @@ body{
     background: #e0e0e0;
     border-radius: 15px;
     box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+                -20px -20px 60px #ffffff;
     margin: 35px 0px;
   }
   .form-container .inner-form h3{
