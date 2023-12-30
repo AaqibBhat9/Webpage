@@ -45,16 +45,41 @@
 
 
 .about-us-area{
-    
-
+    width: 80vw;
+    margin: auto;
+    text-align: center;
 }
 .about-us{
     display: flex;
-    /* margin: 100px; */
+     gap: 50px;
     padding: 30px;
-    /* width: 100%; */
+   
 }
 .about-us-img img{
     margin-left: 100px;
     width: 20vw;
+    
 }
+.title-ab-us{
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.dot{
+    padding: 5px;
+    background-color: #f9a41c;
+    border-radius: 12px;
+    width: 1px;
+
+}
+.line{
+    height: 2px;
+    background-color: #f9a41c;
+    width: 90px;
+    display: flex;
+    position: absolute;
+    margin-top: 4px;
+   }
