@@ -2,14 +2,21 @@
     padding: 0;
     margin: 0;
 }
-
+.wrraper{
+    width: 90vw;
+    margin: auto;
+}
 .header-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* margin-left: 15rem; */
+    grid-template-columns: 4fr 1fr;
 }
-
+.title{
+    font-size: 24px;
+    font-weight: 600;
+}
 .header-container .header-img img{
+    padding: 20px;
+    margin-left: 30px;
     width: 10rem;
     height: 5rem;
 }
@@ -20,66 +27,53 @@
 .header-items .items{
    padding: 30px;
 }
-
-.home-banner{
-    /* width: 60vw; */
-}
 .home-banner-area{
     display: grid;
-    gap: 20rem;
     grid-template-columns: 6fr 1fr 2fr;
     margin-top:30px ;
 }
-
+.banner-image img{
+    width: 20vw;
+}
 .home-banner .banner-text{
     font-size: 20px;
     display: flex;
     justify-content: center;
-    justify-items: center;
     flex-direction: column;
-    width: 27vw;
+
 }
 .home-banner .banner-text h2{
     margin-bottom: 30px;
 }
-
-
-.about-us-area{
-    width: 80vw;
-    margin: auto;
-    text-align: center;
+.about-us-area .about-us-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .about-us{
     display: flex;
      gap: 50px;
-    padding: 30px;
-   
 }
 .about-us-img img{
-    margin-left: 100px;
-    width: 20vw;
     transition: width 2s, height 2s, transform 2s;
     
 }
-.about-us-img img:hover{
+/* .about-us-img img:hover{
     width: 300px;
     height: 300px;
     transform: rotate(360deg);
-}
+} */
 .title-ab-us{
     text-align: center;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
-
-
 }
 .dot{
     padding: 5px;
     background-color: #f9a41c;
     border-radius: 12px;
     width: 1px;
-
 }
 .line{
     height: 2px;
@@ -91,8 +85,5 @@
    }
    .p-desc{
     word-break: break-word;
-
-   }
-   .p-desc::-webkit-scrollbar-thumb{
-    background-color: rgba(57, 49, 29, 0.455);
+    line-height: 1.5;
    }
