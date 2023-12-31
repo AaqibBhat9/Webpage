@@ -58,7 +58,13 @@
 .about-us-img img{
     margin-left: 100px;
     width: 20vw;
+    transition: width 2s, height 2s, transform 2s;
     
+}
+.about-us-img img:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
 }
 .title-ab-us{
     text-align: center;
@@ -82,4 +88,11 @@
     display: flex;
     position: absolute;
     margin-top: 4px;
+   }
+   .p-desc{
+    word-break: break-word;
+
+   }
+   .p-desc::-webkit-scrollbar-thumb{
+    background-color: rgba(57, 49, 29, 0.455);
    }
