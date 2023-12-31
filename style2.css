@@ -87,3 +87,55 @@
     word-break: break-word;
     line-height: 1.5;
    }
+
+
+   /* cards */
+   .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+   }
+   .card1 img{
+    width: 20vw;
+   }
+   .card1{
+    margin: 40px 0px;
+   }
+   .card-profile img{
+    width: 30px;
+    height: 25px;
+    border-radius: 100%;
+   }
+   .card-profile{
+    display: flex;
+   }
+   .card-profile .text{
+    margin-left: 5px;
+    padding-top: 5px;
+   }
+   .social{
+    margin-top: 5px;
+   }
+
+   .fa-hands-clapping:hover{
+    color: blue;
+   }
+
+   .card-area2{
+    width: 40vw;
+    margin-left: 6rem;
+   }
+   .prof{
+    display: flex;
+    margin-top: 50px;
+   }
+   .prof .text1{
+    margin-left: 5px;
+    padding-top: 5px;
+   }
+
+   .area-card{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+   }
