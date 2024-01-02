@@ -1,47 +1,55 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.wrapper{
+
+.wrapper {
     width: 75vw;
     margin: auto;
 }
 
-.navbar-container .nav-img{
+.navbar-container .nav-img {
     display: flex;
     margin-top: 10px;
 }
-.navbar-container{
+
+.navbar-container {
     display: grid;
     grid-template-columns: 6fr 2fr;
     background-color: rgb(173, 169, 169);
 }
-.navbar-container .nav-lists{
+
+.navbar-container .nav-lists {
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
     margin-top: 25px;
 }
-.nav-img img{
+
+.nav-img img {
     width: 5rem;
 }
-.nav-img .logo-img-text{
+
+.nav-img .logo-img-text {
     margin-left: 5px;
     font-size: 20px;
 }
-.slidersection{
+
+.slidersection {
     background-color: black;
     width: 100%;
     height: 40px;
 }
-.button-container{
+
+.button-container {
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
-.button-container .button{
+
+.button-container .button {
     font-size: 18px;
-    margin: 0 10px ;
+    margin: 0 10px;
     height: 40px;
     border-radius: 10px;
     width: 250px;
@@ -49,31 +57,35 @@
     box-shadow: rgb(152, 57, 57) 0px;
 }
 
-.glance-container{
+.glance-container {
     margin-top: 10px;
     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0.3rem;
 
 }
-.glance-container .glance-img img{
+
+.glance-container .glance-img img {
     width: 350px;
-    height: 350px; 
+    height: 350px;
 }
-.glance .glance-text{
+
+.glance .glance-text {
     font-size: 25px;
 }
 
-.notification-container{
+.notification-container {
     margin-top: 35px;
     display: grid;
     gap: 10px;
-    grid-template-columns:0.6fr 2fr;
+    grid-template-columns: 0.6fr 2fr;
 }
-.text{
+
+.text {
     font-size: 25px;
 }
-.priemer-container{
+
+.priemer-container {
     margin-top: 35px;
     display: grid;
     gap: 65px;
@@ -81,3 +93,16 @@
     text-align: center;
 }
 
+.footer {
+    margin-top: 35px;
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 109, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.footer-items {
+    margin-top: 15px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
