@@ -60,14 +60,23 @@
 .glance-container {
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 0.3rem;
 
 }
+ .glance-img3{
+    grid-column: 3 / span 2;
 
+
+}
+
+.glance-container .glance-img{
+   width: 250px;
+   height: 350px;  
+}
 .glance-container .glance-img img {
-    width: 350px;
-    height: 350px;
+  height: 100%;
+  width: 100%;
 }
 
 .glance .glance-text {
