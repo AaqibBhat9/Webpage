@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Utility classes */
+
+.wrapper {
+    width: 80vw;
+    margin: auto;
+}
+
+
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(230, 0, 255, 1) 0%, rgba(20, 90, 246, 1) 100%, rgba(28, 156, 96, 1) 100%);
+}
+
+.card-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.card-container .card-title h2 {
+    text-align: center;
+}
+
+.card-title {
+    /* background-color: rgb(196, 191, 191); */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 139, 0, 1) 0%, rgb(208, 216, 234) 100%, rgba(28, 156, 96, 1) 100%);
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: rgb(255, 0, 0) 5px 3px 8px;
+    transition: all 0.5s cubic-bezier(1, 2, .3, .2);
+}
+
+.card-title h2:hover {
+    color: white;
+    /* text-decoration: underline; */
+    transition: ease-in .2s;
+}
+
+.card-title:hover {
+    box-shadow: #0079ff -1px 11px 8px;
+
+    transform: translateY(-30px);
+    cursor: pointer;
+}
